@@ -19,7 +19,7 @@ Input:
 			- p for voiced closure or portion of closure (optional)
 			- b for burst (optional)
 			- rs for silence, rh for aspiration, rf for frication, rg for glottal stop or other glottalization stuff (all optional and can have multiple in a single word)
-			- the of label the preceding and following vowels with their vowel quality. One vowel minimum is necessary to annotate to give the stop tier a host.
+			- the label of the preceding and following vowels with their vowel quality. One vowel minimum is necessary to annotate to give the stop tier a host.
 	- stop tier:
 			- give the label for the stop or affricate as a point
 			- the point should be located on the following vowel for word-initial stops, on the preceding vowel for word-medial and word-final stops. Multiple stop labels can cooccur on a vowel. It doesn’t have to be a vowel (could be a syllabic sonorant or other segment if the word has no vowels) but whatever the stop is annotated below will undergo the vowel measurements.
